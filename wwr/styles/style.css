@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+
 :root{
     --heading-font: "Roboto Slab";
     --paragraph-font: "Roboto";
@@ -43,7 +45,7 @@ main section img{
 
 body{
     background-color: #280000;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font), "Georgia", "arial";
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -91,7 +93,7 @@ footer .social img{
 
 .home-title{
     color:#F71735;
-    font-family: var(--heading-font);
+    font-family: var(--heading-font),"Georgia", "arial";
     font-size: 2em;
     margin-top: 10px;
 }
@@ -107,7 +109,7 @@ h2{
 
 .msg h2{
     color:#F71735;
-    font-family: var(--heading-font);
+    font-family: var(--heading-font),"Georgia", "arial";
 }
 
 .msg p{
