@@ -236,6 +236,37 @@ nav {
     justify-content: space-around;
 }
 
+/* FAQ Page */
+
+h1 {
+    color:#CBA328;
+}
+
+hr.solid {
+    border: 3px solid #CBA328;
+}
+
+.question{
+    color:#CBA328;
+    font-weight: bold;
+}
+
+.answer{
+    color:#CBA328;
+    font-size:19px
+}
+
+.img-float-right1{
+    float:right;
+    height: 500px;
+    padding: 10px;
+}
+
+.img-float-right2{
+    float:right;
+    padding: 10px;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
